@@ -1,2 +1,0 @@
-NODE hh.js
-pause

